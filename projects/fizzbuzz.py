@@ -14,6 +14,5 @@ while True:
                 print(i)
         break
 
-    except:
+    except ValueError:
         print("that is not a valid integer, try again.")
-
